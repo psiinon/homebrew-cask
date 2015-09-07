@@ -3,7 +3,7 @@ cask :v1 => 'owasp-zap' do
   sha256 'b6d8f3a9632ab99bae4097084df74efd2321c22182aff3a119dd1e69ecc69a63'
 
   # github.com is the official download host per the vendor homepage
-  url "https://github.com/zaproxy/zaproxy/releases/download/#{version}/ZAP_#{version}_MAC_OS_X.dmg"
+  url "https://github.com/zaproxy/zaproxy/releases/download/#{version}/ZAP_#{version}_Mac_OS_X.dmg"
   name 'OWASP Zed Attack Proxy'
   name 'OWASP ZAP'
   name 'ZAP'
